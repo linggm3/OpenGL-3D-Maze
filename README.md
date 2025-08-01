@@ -209,7 +209,6 @@ OpenGL-3D-Maze
 │  │  vec3.cpp                   # 三维向量运算
 │  │  vec3.h
 │  │  _readme.txt                # 代码使用说明
-│  │  凌国明-更新日志.docx       # 更新日志
 │  │
 │  └─texture                     # 游戏贴图资源
 │          blue_bk.bmp           # 天空盒纹理
