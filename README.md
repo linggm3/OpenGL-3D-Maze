@@ -13,8 +13,7 @@
 
 游戏中设置了各种各样的元素，包括可以翻阅的障碍围墙，岩浆陷阱，以及得分机关。我们完成了天空盒的设计并且引入了自己的光照模型，在天空盒动态移动的时候，光照阴影也会随之移动。
 
-<img src="figs/fig1.png" alt="图1" style="width:35%; margin-right:3%;" />
-<img src="figs/fig2.png" alt="图2" style="width:35%;" />
+<img src="figs/fig1.png" alt="图1" style="width:40%; margin-right:5%;" /><img src="figs/fig2.png" alt="图2" style="width:40%;" />
 
 
 
@@ -82,8 +81,7 @@
 * 玩家死亡不能移动的效果可以通过固定摄像机来实现，将前后移动速度、左右移动速度、垂直移动速度和视角移动速度都为 0
 * 玩家死亡之后更新的每一帧都会触发 player->setFixed() 和 drawText 的死亡提示，从而实现游戏的结束
   
-<img src="figs/fig10.png" alt="岩浆溢出" style="width:42%; margin-right:5%;" />
-<img src="figs/fig11.png" alt="岩浆未溢出" style="width:42%;" />
+<img src="figs/fig10.png" alt="岩浆溢出" style="width:40%; margin-right:5%;" /><img src="figs/fig11.png" alt="岩浆未溢出" style="width:40%;" />
 
 
 
