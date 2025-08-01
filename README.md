@@ -13,13 +13,10 @@
 
 游戏中设置了各种各样的元素，包括可以翻阅的障碍围墙，岩浆陷阱，以及得分机关。我们完成了天空盒的设计并且引入了自己的光照模型，在天空盒动态移动的时候，光照阴影也会随之移动。
 
-<img src="figs/fig1.png" alt="图1" style="width:42%; margin-right:5%;" />
-<img src="figs/fig2.png" alt="图2" style="width:42%;" />
+<img src="figs/fig1.png" alt="图1" style="width:40%; margin-right:5%;" />
+<img src="figs/fig2.png" alt="图2" style="width:40%;" />
 
-## 效果预览
-<p align="center">
-  <img src="figs/fig15.png" width="100%">
-</p>
+
 
 下面是本游戏的详细介绍
 
@@ -140,4 +137,9 @@
 *  下坠状态更新：updateFallState 函数处理自然下坠。当玩家既不在跳跃也不在下坠，且高于当前块表面时，开始下坠。
 *  下坠计算与结束：使用物理公式根据下坠时间计算下坠高度。如果到达块上表面，下坠结束，并更新相关高度参数。
 * 摄像机/玩家位置更新：在下坠过程中，同样更新玩家或摄像机的垂直位置。
+
+## 效果预览
+<p align="center">
+  <img src="figs/fig15.png" width="100%">
+</p>
 
